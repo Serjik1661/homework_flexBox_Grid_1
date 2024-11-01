@@ -1,0 +1,44 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+    background-color: aqua;
+    width: 1200px;
+    margin: 0 auto;
+}
+.card{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    border: 1px solid black;
+    width: 350px;
+    padding: 0;
+    margin: 0;
+}
+.cardImg{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+.cardImg p{
+    margin: auto 0;
+    padding: 0;
+}
+.cardDescription{
+    margin: 0 15px;
+}
+.hidden{
+    display: none;
+}
+.block_2{
+    margin-bottom: 120px;
+}
+.block_5{
+    margin-top: -120px;
+    margin-bottom: 120px;
+}
+.block_8{
+    margin-top: -120px;
+    margin-bottom: 120px;
+}
